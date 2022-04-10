@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <h1 id="title">Student Form</h1>
+            <p id="sentence">Please fill in the form</p>
+        </header>
+        <form action="" class="survey-form">
+            <label for="name" id="namelabel">Name</label>
+            <input type="text" name="Username" id="name" placeholder="Enter your name" required>
+            <label id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required> <br>
+            <label id="numberlabel">Age(optional)</label>
+            <input type="number" name="age" id="number" placeholder="Age" min="10" max="100"><br>
+            <label>Which option best fits your current roles?</label>
+            <select>
+                <option value="">Select your current role</option>
+                <option value="array">Array</option>
+                <option value="entertainment captain">Entertainment Captain</option>
+                <option value="dining captain">Dining Captain</option>
+                <option value="games captain">Games Captain</option>
+                <option value="class rep">Class Representative</option>
+                <option value="other">Other</option>
+            </select>
+            <div id="label">
+            <label>Which activities in class do you enjoy most?</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="fastfacts" name="recommend" value="fastfacts">
+                <label for="fastfact">Fast Facts</label>
+            </div>
+            <div>
+                <input type="checkbox" id="broken-tel" name="recommend" value="broken-tel">
+                <label for="breken-tel">Broken Telephone</label>
+            </div>
+            <div>
+                <input type="checkbox" id="treasurehunt" name="recommend" value="treasurehunt">
+                <label for="tresurehunt">Treasure Hunt</label>
+            </div>
+            <div>
+                <input type="checkbox" id="memories" name="recommend" value="memories" >
+                <label for="memories">Memories</label>
+            </div>
+            <div>
+                <input type="checkbox" id="other" name="recommend" value="other">
+                <label for="other">Other</label>
+            </div>
+            <label>Given a chance, what is one change you would like to see?</label>
+            <div>
+                <input type="checkbox" id="teaching" name="recommend" value="teaching">
+                <label for="teaching">Teaching Methods</label>
+            </div>
+            <div>
+                <input type="checkbox" id="study" name="recommend" value="study">
+                <label for="study">Study Time</label>
+            </div>
+            <div>
+                <input type="checkbox" id="extra" name="recommend" value="extra">
+                <label for="extra">Extracurricular Activities</label>
+            </div>
+            <div>
+                <input type="checkbox" id="personal" name="recommend" value="personal">
+                <label for="personal">Personal Time</label>
+            </div>
+            <div>
+                <input type="checkbox" id="other" name="recommend" value="other">
+                <label for="other">Other</label>
+            </div>
+            <label>Are your classmates supportive?</label>
+            <div>
+                <input type="checkbox" id="yes" name="recommend" value="yes" >
+                <label for="yes">Extremely Supportive</label>
+            </div>
+            <div>
+                <input type="checkbox" id="moderate" name="recommend" value="moder">
+                <label for="moder">Moderatively Supportive</label>
+            </div>
+            <div>
+                <input type="checkbox" id="lil" name="recommend" value="lil">
+                <label for="lil">Less Supportive</label>
+            </div>
+            <div>
+                <input type="checkbox" id="not" name="recommend" value="not">
+                <label for="not">Not Supportive</label>
+            </div>
+
+            <label>Do you think the school supports you with enough supplies?</label>
+            <div>
+                <input type="checkbox" id="y" name="recommend" value="y">
+                <label for="y">Yes</label>
+            </div>
+            <div>
+                <input type="checkbox" id="nope" name="recommend" value="nope">
+                <label for="nope">Not really</label>
+            </div>
+            <div>
+                <input type="checkbox" id="n" name="recommend" value="n">
+                <label for="n">No</label>
+            </div>
+            <label>Which subject do you like most</label>
+            <select>
+                <option value="">Select your favorite subject</option>
+                <option value="design">UI/UX design</option>
+                <option value="pyhton">Python</option>
+                <option value="kotlin">Kotlin</option>
+                <option value="mobiledev">Front-end mobile development</option>
+                <option value="frontend-web">Front-end web development</option>
+                <option value="iot">IoT</option>
+                <option value="research">UX Research</option>
+            </select> <br>
+            <div id="finish">
+            <label>Any comments or suggestions</label>
+            </div>
+            <div id="comment">
+                <textarea> Comment or suggest here...
+
+                </textarea>
+            </div>
+            <input type="submit" id="submit">
+          
+        </form>
+    </div>
+</body>
+</html>
